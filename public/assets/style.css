@@ -1,0 +1,48 @@
+.title {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.title:hover {
+    transform: scale(1.1);
+    color: #0d6efd;
+    z-index: 10;
+    position: relative;
+}
+
+.card-link-custom {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.card-link-custom .card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-link-custom .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.12);
+}
+
+.genre-badge{
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+.genre-badge:hover{
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    border-color: #dc3545 !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: red; 
+ }
+   
+
+ 
